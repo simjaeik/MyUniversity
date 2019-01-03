@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1~4번 문제_recursion", "1~4번 문제_recursion\1~4번 문제_recursion.vcxproj", "{CD1F38CF-B735-466B-94D6-75E20F18B90A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Debug|x64.ActiveCfg = Debug|x64
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Debug|x64.Build.0 = Debug|x64
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Debug|x86.Build.0 = Debug|Win32
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Release|x64.ActiveCfg = Release|x64
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Release|x64.Build.0 = Release|x64
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Release|x86.ActiveCfg = Release|Win32
+		{CD1F38CF-B735-466B-94D6-75E20F18B90A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29139CD0-4325-49D9-B3EB-61C7F572DD1C}
+	EndGlobalSection
+EndGlobal
