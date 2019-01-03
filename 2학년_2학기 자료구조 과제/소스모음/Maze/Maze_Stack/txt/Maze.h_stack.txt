@@ -1,0 +1,26 @@
+//maze.h
+
+#ifndef MAZE_H
+#define MAZE_H
+#pragma warning (disable:4996)
+
+#include <stdio.h>
+#include "stackADT.h"
+#include "pos.h"
+
+#define MAX 100
+#define WALL 0 /* 지나갈 수 있는 위치 */
+#define PATH 1 /* 지나갈 수 없는 위치 */
+#define VISITED 2 /* 이미 방문한 위치 */
+#define BACKTRACKED 3 /* 방문했다가 되돌아 나온 위치 */
+int maze[MAX][MAX];
+int n; /* 미로의 크기 */
+
+#pragma warning (disable:4996)
+
+void read_maze();
+void solve_maze(Stack s);
+//void print_maze();
+bool movable(Position pos, int dir);
+
+#endif
